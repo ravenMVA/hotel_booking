@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информация</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="container text-center my-4">
+        <h1>Информация о отеле</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Мой сайт</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="info.html">Информация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-4">
+        <h2>Таблица с информацией</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Услуга</th>
+                    <th>Описание</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Бесплатный Wi-Fi</td>
+                    <td>Доступен на всей территории отеля.</td>
+                </tr>
+                <tr>
+                    <td>Завтрак</td>
+                    <td>Шведский стол с разнообразными блюдами.</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Спа</td>
+                    <td>Сауна и массаж.</td>
+                </tr>
+                <tr>
+                    <td>Фитнес-центр.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer class="text-center bg-light py-4">
+        <p>&copy; 2024 Hotel Booking. Все права защищены.</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
